@@ -1,0 +1,42 @@
+{
+  "name": "pathpath",
+  "version": "0.0.0",
+  "description": "A file system utility for node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "tslint --project .",
+    "test": "mocha",
+    "prebuild": "rimraf lib",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gerhut/pathpath.git"
+  },
+  "keywords": [
+    "fs"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerhut/pathpath/issues"
+  },
+  "homepage": "https://github.com/Gerhut/pathpath#readme",
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.13.0",
+    "mocha": "^6.1.4",
+    "rimraf": "^2.6.3",
+    "should": "^13.2.3",
+    "ts-node": "^8.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}
