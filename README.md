@@ -1,26 +1,26 @@
-# PathPath
+# Pathkit
 
-A file system toolkit.
+A node.js file system toolkit. 
 
 ## Install
 
 Node.js >= 10.13.0 is required.
 
 ```bash
-npm install pathpath
+npm install pathkit
 ```
 
 or
 
 ```bash
-yarn add pathpath
+yarn add pathkit
 ```
 
 ## Usage
 
 ```JavaScript
 
-import { Path, File, Directory } from 'pathpath'
+import { Path, File, Directory } from 'pathkit'
 
 // Construct an usr Path object relative the root.
 const usr = new Path('/usr')
