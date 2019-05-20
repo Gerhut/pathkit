@@ -1,7 +1,7 @@
 {
   "name": "pathkit",
   "version": "0.0.0",
-  "description": "A file system utility for node.js",
+  "description": "A node.js file system toolkit.",
   "main": "lib/index.js",
   "scripts": {
     "pretest": "tslint --project .",
